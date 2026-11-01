@@ -1,0 +1,22 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>Drift Clone</title>
+<style>
+ html, body { margin: 0; height: 100%; overflow: hidden; background: #111;
+   touch-action: none; user-select: none; -webkit-user-select: none;
+   -webkit-touch-callout: none; -webkit-tap-highlight-color: transparent; }
+ canvas { position: fixed; top: 0; left: 0; width: 100%; height: 100%; display: block;
+   touch-action: none; user-select: none; -webkit-touch-callout: none; }
+</style>
+</head>
+<body>
+<canvas id="game"></canvas>
+<!-- bump v after each edit so iPhone doesn't cache -->
+<script src="game.js?v=1"></script>
+</body>
+</html>
